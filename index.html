@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>symbiosis.co | Consultoría Internacional en Sostenibilidad y Estrategia ESG</title>
+    <meta name="description" content="Simbiosis es la consultora internacional líder en sostenibilidad y estrategia ESG. Maximizamos el retorno financiero de tu empresa mientras regeneramos el planeta con soluciones circulares y descarbonización.">
+    <meta name="keywords" content="sostenibilidad empresarial, consultoria ESG, descarbonizacion, economia circular, bonos verdes, finanzas sostenibles, huella de carbono, GRI, SASB">
+    <meta name="author" content="symbiosis.co">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://symbiosis.co/">
+    <meta property="og:title" content="symbiosis.co | Consultoría Internacional en Sostenibilidad y Estrategia ESG">
+    <meta property="og:description" content="Alineamos el éxito financiero con el equilibrio ecológico a través de consultoría de sostenibilidad premium, descarbonización y economía circular para empresas líderes.">
+    <meta property="og:image" content="images/hero-bg.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://symbiosis.co/">
+    <meta property="twitter:title" content="symbiosis.co | Consultoría Internacional en Sostenibilidad y Estrategia ESG">
+    <meta property="twitter:description" content="Alineamos el éxito financiero con el equilibrio ecológico a través de consultoría de sostenibilidad premium, descarbonización y economía circular para empresas líderes.">
+    <meta property="twitter:image" content="images/hero-bg.png">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Glow background accents for immersive dark mode design -->
+    <div class="glow-blur" style="top: 10%; left: -5%;"></div>
+    <div class="glow-blur glow-cyan" style="top: 40%; right: -5%;"></div>
+    <div class="glow-blur" style="top: 75%; left: 10%;"></div>
+
+    <!-- ==========================================
+         HEADER / NAVIGATION
+         ========================================== -->
+    <header class="header">
+        <div class="nav-container">
+            <!-- Brand Logo -->
+            <a href="#inicio" class="logo" id="nav-logo">
+                <div class="logo-icon"></div>
+                <div class="logo-text">symbiosis<span>.co</span></div>
+            </a>
+
+            <!-- Navigation Links -->
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+                    <li><a href="#filosofia" class="nav-link">Filosofía</a></li>
+                    <li><a href="#servicios" class="nav-link">Servicios</a></li>
+                    <li><a href="#simulador" class="nav-link">Simulador ESG</a></li>
+                    <li><a href="#roadmap" class="nav-link">Nuestro Enfoque</a></li>
+                    <li><a href="#casos" class="nav-link">Casos de Éxito</a></li>
+                    <li><a href="#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <!-- Actions CTA -->
+            <div class="nav-actions">
+                <a href="#simulador" class="btn btn-primary btn-nav">Simular Impacto</a>
+            </div>
+
+            <!-- Hamburger menu (Mobile toggle) -->
+            <button class="menu-toggle" aria-label="Abrir menú de navegación">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ==========================================
+         HERO SECTION
+         ========================================== -->
+    <section id="inicio" class="hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-grid">
+                
+                <div class="hero-content">
+                    <div class="section-tag">Liderando la transición regenerativa</div>
+                    <h1 class="hero-title">Alineamos tu <span>crecimiento</span> con el equilibrio del planeta.</h1>
+                    <p class="hero-description">
+                        Somos una firma global de consultoría especializada en sostenibilidad corporativa y estrategia ESG. Rediseñamos modelos de negocio mediante ingeniería circular y descarbonización, garantizando retornos financieros sobresalientes.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#simulador" class="btn btn-primary">
+                            <span>Simular Impacto Corporativo</span>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </a>
+                        <a href="#contacto" class="btn btn-secondary">Conversar con un Consultor</a>
+                    </div>
+
+                    <!-- Real-Time Impact Counters -->
+                    <div class="impact-ticker">
+                        <div class="ticker-item">
+                            <div class="ticker-number" id="count-co2">0 t</div>
+                            <div class="ticker-label">CO₂ Evitado al Año</div>
+                        </div>
+                        <div class="ticker-item">
+                            <div class="ticker-number" id="count-invest">$0</div>
+                            <div class="ticker-label">Capital Verde Movilizado</div>
+                        </div>
+                        <div class="ticker-item">
+                            <div class="ticker-number" id="count-hectares">0 ha</div>
+                            <div class="ticker-label">Biodiversidad Regenerada</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Decorative elements showing a premium, elegant structural capsule -->
+                <div style="display: flex; justify-content: center; position: relative;">
+                    <div class="glass-card" style="width: 100%; max-width: 380px; padding: 30px; border-color: rgba(0, 255, 179, 0.2);">
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+                            <span style="font-family: var(--font-subtitle); font-weight: 700; color: var(--primary); font-size: 0.9rem; text-transform: uppercase;">ESG Status Global</span>
+                            <span style="width: 8px; height: 8px; background-color: var(--primary); border-radius: 50%; box-shadow: 0 0 10px var(--primary);"></span>
+                        </div>
+                        <p style="font-size: 0.85rem; margin-bottom: 20px; color: var(--text-muted);">
+                            La sostenibilidad ya no es un costo regulatorio; es la mayor ventaja competitiva de la década.
+                        </p>
+                        <div style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.05); padding: 16px; border-radius: var(--radius-sm); margin-bottom: 12px;">
+                            <div style="display: flex; justify-content: space-between; font-size: 0.75rem; margin-bottom: 4px;">
+                                <span style="font-weight: 600;">Estrategias ESG</span>
+                                <span style="color: var(--primary);">+40% Eficiencia</span>
+                            </div>
+                            <div style="height: 4px; background: rgba(255, 255, 255, 0.1); border-radius: 2px;">
+                                <div style="height: 100%; width: 85%; background: var(--primary); border-radius: 2px;"></div>
+                            </div>
+                        </div>
+                        <div style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.05); padding: 16px; border-radius: var(--radius-sm);">
+                            <div style="display: flex; justify-content: space-between; font-size: 0.75rem; margin-bottom: 4px;">
+                                <span style="font-weight: 600;">Riesgo Climático Mitigado</span>
+                                <span style="color: var(--secondary);">Nivel A+</span>
+                            </div>
+                            <div style="height: 4px; background: rgba(255, 255, 255, 0.1); border-radius: 2px;">
+                                <div style="height: 100%; width: 92%; background: var(--secondary); border-radius: 2px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         PHILOSOPHY SECTION
+         ========================================== -->
+    <section id="filosofia" class="philosophy">
+        <div class="container">
+            <div class="philosophy-grid">
+                
+                <!-- Interactive Diagram Grid Column -->
+                <div class="philosophy-media">
+                    <div class="symbiosis-diagram">
+                        <div class="diagram-circle circle-eco">
+                            Ecología
+                            <span>Regenerativa</span>
+                        </div>
+                        <div class="diagram-circle circle-econ">
+                            Economía
+                            <span>Rentable</span>
+                        </div>
+                        <div class="diagram-circle circle-tech">
+                            Tecnología
+                            <span>Exponencial</span>
+                        </div>
+                        <div class="diagram-center">Simbiosis</div>
+                    </div>
+                </div>
+
+                <!-- Text Content Column -->
+                <div>
+                    <div class="section-tag">NUESTRA FILOSOFÍA</div>
+                    <h2 class="section-title">El verdadero negocio sostenible está en la <span>simbiosis activa</span>.</h2>
+                    <p style="font-size: 1.05rem; margin-bottom: 24px; color: var(--text-main);">
+                        Superamos el modelo obsoleto de mitigación de daños y "greenwashing". Diseñamos ecosistemas corporativos inteligentes donde la ecología impulsa directamente a la economía.
+                    </p>
+                    <p style="margin-bottom: 30px;">
+                        Inspirados en la naturaleza, ayudamos a las organizaciones a estructurar sinergias donde el desecho de un proceso se convierte en la materia prima de alto valor del siguiente. Unimos ciencia de datos, regulación internacional avanzada y finanzas climáticas para rediseñar cadenas de valor globales.
+                    </p>
+                    <a href="#servicios" class="btn btn-secondary">
+                        <span>Descubre Nuestros Servicios</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         SERVICES SECTION
+         ========================================== -->
+    <section id="servicios" class="services">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag">SERVICIOS DE VANGUARDIA</div>
+                <h2 class="section-title">Ingeniería estratégica para el <span>liderazgo global</span></h2>
+                <p>Nuestras áreas de especialización están diseñadas para guiar a corporaciones transnacionales hacia operaciones netas cero con altos índices de rentabilidad.</p>
+            </div>
+
+            <div class="services-grid">
+                
+                <!-- Service 1 -->
+                <div class="glass-card service-card">
+                    <div class="service-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                    </div>
+                    <h3>Estrategia ESG & Descarbonización</h3>
+                    <p>Calculamos tu huella en Alcances 1, 2 y 3. Diseñamos hojas de ruta basadas en ciencia (SBTi) para alcanzar emisiones netas cero.</p>
+                    <ul class="service-features">
+                        <li>Modelado de mitigación climática</li>
+                        <li>Análisis de riesgos y oportunidades climáticas (TCFD)</li>
+                        <li>Planificación Net Zero de largo alcance</li>
+                    </ul>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="glass-card service-card">
+                    <div class="service-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+                    </div>
+                    <h3>Finanzas Sostenibles & Bonos Verdes</h3>
+                    <p>Conectamos tu agenda ecológica con el ecosistema financiero global. Estructuramos y emitimos instrumentos de deuda sostenible.</p>
+                    <ul class="service-features">
+                        <li>Emisión y estructuración de bonos verdes y sociales</li>
+                        <li>Optimización de calificaciones ESG (MSCI, S&P, Sustainalytics)</li>
+                        <li>Marcos de financiamiento vinculados a la sostenibilidad</li>
+                    </ul>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="glass-card service-card">
+                    <div class="service-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"></path></svg>
+                    </div>
+                    <h3>Economía Circular & Regeneración</h3>
+                    <p>Rediseñamos productos y procesos para eliminar residuos. Desarrollamos sinergias industriales para valorizar corrientes subyacentes.</p>
+                    <ul class="service-features">
+                        <li>Análisis de Ciclo de Vida integral (LCA)</li>
+                        <li>Sistemas industriales integrados zero-waste</li>
+                        <li>Ingeniería de simbiosis industrial de escala regional</li>
+                    </ul>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="glass-card service-card">
+                    <div class="service-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                    </div>
+                    <h3>Cumplimiento & Auditoría Internacional</h3>
+                    <p>Garantizamos la transparencia y el cumplimiento normativo ante regulaciones emergentes de taxonomía verde internacional.</p>
+                    <ul class="service-features">
+                        <li>Alineación con estándares GRI, SASB, ESRS (Directiva Europea)</li>
+                        <li>Auditorías ecológicas independientes y de cadena de suministro</li>
+                        <li>Due Diligence ambiental y social para adquisiciones</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         ESG INTERACTIVE SIMULATOR SECTION
+         ========================================== -->
+    <section id="simulador" class="simulator">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag">SIMULACIÓN INTERACTIVA</div>
+                <h2 class="section-title">Calcula el retorno de tu <span>inversión verde</span></h2>
+                <p>Configura las variables de tu negocio y simula las métricas estimadas de reducción de impacto ambiental y los retornos financieros derivados.</p>
+            </div>
+
+            <div class="simulator-container">
+                
+                <!-- Controls Column -->
+                <div class="sim-controls">
+                    
+                    <!-- Control 1: Industry Select -->
+                    <div class="sim-group">
+                        <label class="sim-label" for="sim-sector">
+                            <span>Sector de tu Negocio</span>
+                            <span>Establecer sector</span>
+                        </label>
+                        <select id="sim-sector" class="sim-select">
+                            <option value="manufacturing">Agroindustria & Alimentos</option>
+                            <option value="technology">Tecnología & Servicios de Datos</option>
+                            <option value="agriculture" selected>Manufactura e Industrial</option>
+                            <option value="finance">Banca & Servicios Financieros</option>
+                        </select>
+                    </div>
+
+                    <!-- Control 2: Annual Budget Slider -->
+                    <div class="sim-group">
+                        <label class="sim-label" for="sim-presupuesto">
+                            <span>Inversión en Sostenibilidad</span>
+                            <span id="val-presupuesto">$500k USD</span>
+                        </label>
+                        <input type="range" id="sim-presupuesto" min="50000" max="2500000" step="50000" value="500000" class="sim-slider">
+                    </div>
+
+                    <!-- Control 3: Current Renewable percentage -->
+                    <div class="sim-group">
+                        <label class="sim-label" for="sim-energia">
+                            <span>Energías Renovables Actuales</span>
+                            <span id="val-energia">25%</span>
+                        </label>
+                        <input type="range" id="sim-energia" min="0" max="100" step="5" value="25" class="sim-slider">
+                    </div>
+
+                    <p style="font-size: 0.75rem; color: var(--text-muted); margin-top: 20px;">
+                        *Estas estimaciones están basadas en modelos agregados globales para cada sector industrial y son de carácter orientativo. Una evaluación en terreno de symbiosis.co optimizará estas métricas de forma sustancial.
+                    </p>
+                </div>
+
+                <!-- Dashboard Outputs Column -->
+                <div class="sim-results">
+                    <div class="dashboard-card">
+                        
+                        <div class="dash-header">
+                            <h3>Dashboard de Impacto Estimado</h3>
+                            <p>Proyección anual basada en las variables ingresadas</p>
+                        </div>
+
+                        <!-- Results Grid -->
+                        <div class="dash-grid">
+                            <div class="dash-item">
+                                <div class="dash-val" id="res-co2">0 t</div>
+                                <div class="dash-lbl">CO₂ Evitado Anual</div>
+                            </div>
+                            <div class="dash-item">
+                                <div class="dash-val dash-val-accent" id="res-roi">$0 USD</div>
+                                <div class="dash-lbl">Valor Financiero Creado</div>
+                            </div>
+                            <div class="dash-item">
+                                <div class="dash-val" id="res-payback">0 Años</div>
+                                <div class="dash-lbl">Retorno de Inversión</div>
+                            </div>
+                            <div class="dash-item">
+                                <div class="dash-val dash-val-accent" id="res-esg">0/100</div>
+                                <div class="dash-lbl">Puntaje ESG Esperado</div>
+                            </div>
+                        </div>
+
+                        <!-- Radial visual indicator -->
+                        <div class="dash-graph-container">
+                            <div class="radial-progress">
+                                <svg>
+                                    <circle class="radial-bg" cx="40" cy="40" r="35"></circle>
+                                    <circle class="radial-fg" id="radial-progress-circle" cx="40" cy="40" r="35" stroke-dasharray="219.9" stroke-dashoffset="100"></circle>
+                                </svg>
+                                <span class="radial-text" id="radial-value">+0%</span>
+                            </div>
+                            <div class="radial-desc">
+                                <h4>Mejora Calificación ESG</h4>
+                                <p>Incremento porcentual estimado de solvencia socio-ambiental corporativa global.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         METHODOLOGY SECTION
+         ========================================== -->
+    <section id="roadmap" class="methodology">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag">NUESTRO ROADMAP</div>
+                <h2 class="section-title">El camino hacia la <span>regeneración corporativa</span></h2>
+                <p>Nuestra metodología estructurada garantiza una transición segura y auditable de principio a fin.</p>
+            </div>
+
+            <div class="roadmap">
+                
+                <!-- Step 1 -->
+                <div class="roadmap-step">
+                    <span class="step-num">Fase 01</span>
+                    <div class="step-card">
+                        <h3>Diagnóstico Holístico</h3>
+                        <p>Realizamos un análisis exhaustivo y auditable de tu huella ecológica actual, balances energéticos y materialidad financiera ESG.</p>
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="roadmap-step">
+                    <span class="step-num">Fase 02</span>
+                    <div class="step-card">
+                        <h3>Modelado de Simbiosis</h3>
+                        <p>Identificamos oportunidades de economía circular, reducción de consumos fósiles y optimización de flujos de valor inter-empresas.</p>
+                    </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="roadmap-step">
+                    <span class="step-num">Fase 03</span>
+                    <div class="step-card">
+                        <h3>Estructuración e Implementación</h3>
+                        <p>Alineamos el financiamiento verde, implementamos tecnologías de transición y capacitamos a tus equipos globales.</p>
+                    </div>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="roadmap-step">
+                    <span class="step-num">Fase 04</span>
+                    <div class="step-card">
+                        <h3>Certificación y Divulgación</h3>
+                        <p>Validamos tus resultados bajo estándares internacionales (GRI, SASB, TCFD) y estructuramos tu narrativa corporativa global.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         CASE STUDIES SECTION
+         ========================================== -->
+    <section id="casos" class="cases">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag">CASOS DE ÉXITO</div>
+                <h2 class="section-title">Impacto real en <span>industrias críticas</span></h2>
+                <p>Conoce los proyectos de transformación global implementados por symbiosis.co con éxito medible.</p>
+            </div>
+
+            <!-- Portfolio filter buttons -->
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">Todos los proyectos</button>
+                <button class="filter-btn" data-filter="circular">Economía Circular</button>
+                <button class="filter-btn" data-filter="descarbonizacion">Descarbonización</button>
+                <button class="filter-btn" data-filter="finanzas">Finanzas ESG</button>
+            </div>
+
+            <div class="cases-grid">
+                
+                <!-- Case 1 -->
+                <div class="glass-card case-card" data-category="circular">
+                    <div class="case-image">
+                        <span class="case-tag">Circularidad</span>
+                        <!-- Custom Inline SVG decoration -->
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#00ffb3" stroke-width="1.5"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path><path d="M12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12z"></path></svg>
+                    </div>
+                    <div class="case-body">
+                        <h3>Simbiosis Agroindustrial AgroTech</h3>
+                        <p>Rediseñamos la cadena de una de las mayores agroindustrias de Latam, valorizando subproductos de caña en bio-energía local.</p>
+                        <div class="case-stats">
+                            <div>
+                                <div class="case-stat-val">+48%</div>
+                                <div class="case-stat-lbl">ESG Score</div>
+                            </div>
+                            <div>
+                                <div class="case-stat-val">38.000 t</div>
+                                <div class="case-stat-lbl">CO₂ Evitado</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Case 2 -->
+                <div class="glass-card case-card" data-category="finanzas">
+                    <div class="case-image">
+                        <span class="case-tag">Finanzas ESG</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#00e5ff" stroke-width="1.5"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
+                    </div>
+                    <div class="case-body">
+                        <h3>Emisión de Bono Verde de $250M USD</h3>
+                        <p>Estructuración técnica del marco de bonos climáticos para un gigante de infraestructura en telecomunicaciones.</p>
+                        <div class="case-stats">
+                            <div>
+                                <div class="case-stat-val">2.3x</div>
+                                <div class="case-stat-lbl">Sobresuscrito</div>
+                            </div>
+                            <div>
+                                <div class="case-stat-val">-1.4%</div>
+                                <div class="case-stat-lbl">Costo Capital</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Case 3 -->
+                <div class="glass-card case-card" data-category="descarbonizacion">
+                    <div class="case-image">
+                        <span class="case-tag">Descarbonización</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#d4ff00" stroke-width="1.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path></svg>
+                    </div>
+                    <div class="case-body">
+                        <h3>Net Zero Logística Paneuropea</h3>
+                        <p>Hormigonado de la estrategia de descarbonización de una flota transnacional integrando biocombustibles e IA en rutas.</p>
+                        <div class="case-stats">
+                            <div>
+                                <div class="case-stat-val">-32%</div>
+                                <div class="case-stat-lbl">Alcance 1 y 2</div>
+                            </div>
+                            <div>
+                                <div class="case-stat-val">3.8 Años</div>
+                                <div class="case-stat-lbl">Retorno ROI</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         CONTACT & NEWSLETTER SECTION
+         ========================================== -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <div class="contact-grid">
+                
+                <!-- Left Column: Contact details -->
+                <div class="contact-info">
+                    <div>
+                        <div class="section-tag">CONTÁCTANOS</div>
+                        <h2 class="section-title" style="margin-bottom: 24px;">Hablemos sobre tu <span>futuro sostenible</span></h2>
+                        <p>Nuestros expertos globales están estratégicamente ubicados para acompañar tus operaciones corporativas en cualquier región geográfica.</p>
+                    </div>
+
+                    <div class="contact-details">
+                        
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                            </div>
+                            <div class="info-text">
+                                <h4>Email Global</h4>
+                                <p>contacto@symbiosis.co</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                            </div>
+                            <div class="info-text">
+                                <h4>Sedes Globales</h4>
+                                <p>Bogotá • Madrid • Ciudad de México • Santiago</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                    <p style="font-size: 0.8rem; color: var(--text-muted); line-height: 1.4;">
+                        Estás a un paso de liderar la sostenibilidad en tu sector. Al enviar tu formulario, recibirás una propuesta de agenda para una sesión diagnóstica 100% gratuita.
+                    </p>
+                </div>
+
+                <!-- Right Column: Interactive Form -->
+                <div>
+                    <div class="contact-form-container">
+                        <h3 class="form-title">Agendar Sesión Diagnóstica</h3>
+                        <p class="form-desc">Completa tus datos y un especialista regional te contactará de inmediato.</p>
+                        
+                        <form id="contact-form" novalidate>
+                            
+                            <!-- Input: Name -->
+                            <div class="form-group">
+                                <input type="text" id="form-name" class="form-control" placeholder=" " required minlength="3">
+                                <label class="form-label" for="form-name">Nombre Completo</label>
+                            </div>
+
+                            <!-- Input: Email -->
+                            <div class="form-group">
+                                <input type="email" id="form-email" class="form-control" placeholder=" " required>
+                                <label class="form-label" for="form-email">Correo Electrónico Corporativo</label>
+                            </div>
+
+                            <!-- Input: Message -->
+                            <div class="form-group">
+                                <textarea id="form-message" class="form-control" placeholder=" " required minlength="10"></textarea>
+                                <label class="form-label" for="form-message">Breve descripción de los objetivos ESG de tu empresa</label>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary" style="width: 100%;">
+                                <span>Solicitar Diagnóstico Gratuito</span>
+                            </button>
+
+                            <!-- Form Feedback area -->
+                            <div id="form-feedback" class="form-feedback"></div>
+
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         FOOTER
+         ========================================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                
+                <!-- Brand information -->
+                <div class="footer-brand">
+                    <a href="#inicio" class="logo" style="margin-bottom: 20px;">
+                        <div class="logo-icon"></div>
+                        <div class="logo-text">symbiosis<span>.co</span></div>
+                    </a>
+                    <p>Facilitamos la evolución de las empresas hacia un modelo regenerativo rentable y con impacto global real.</p>
+                    <div class="social-links">
+                        <a href="https://linkedin.com" class="social-link" aria-label="LinkedIn" target="_blank" rel="noopener">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                        </a>
+                        <a href="https://twitter.com" class="social-link" aria-label="Twitter" target="_blank" rel="noopener">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Footer Column: Company -->
+                <div class="footer-col">
+                    <h4>Compañía</h4>
+                    <ul class="footer-links">
+                        <li><a href="#filosofia">Nuestra Filosofía</a></li>
+                        <li><a href="#servicios">Servicios Globales</a></li>
+                        <li><a href="#casos">Casos de Éxito</a></li>
+                        <li><a href="#contacto">Únete al Equipo</a></li>
+                    </ul>
+                </div>
+
+                <!-- Footer Column: Tools -->
+                <div class="footer-col">
+                    <h4>Herramientas</h4>
+                    <ul class="footer-links">
+                        <li><a href="#simulador">Simulador ESG & ROI</a></li>
+                        <li><a href="#roadmap">Metodología Clima</a></li>
+                        <li><a href="#inicio">Materiales & Whitepapers</a></li>
+                    </ul>
+                </div>
+
+                <!-- Footer Column: Newsletter -->
+                <div class="footer-col footer-newsletter">
+                    <h4>Suscripción Boletín</h4>
+                    <p>Recibe mensualmente análisis regulatorios y estratégicos avanzados sobre sostenibilidad corporativa global.</p>
+                    <form class="newsletter-form" onsubmit="event.preventDefault(); alert('¡Gracias por suscribirte a Symbiosis Insights!'); this.reset();">
+                        <input type="email" placeholder="Tu correo electrónico" class="newsletter-input" required>
+                        <button type="submit" class="btn btn-primary btn-newsletter">
+                            <span>→</span>
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+
+            <!-- Footer Legal details -->
+            <div class="footer-bottom">
+                <div>&copy; 2026 symbiosis.co. Todos los derechos reservados. Consultoría global de impacto.</div>
+                <div class="footer-bottom-links">
+                    <a href="#inicio">Aviso Legal</a>
+                    <a href="#inicio">Política de Privacidad</a>
+                    <a href="#inicio">Política de Cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>
