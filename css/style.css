@@ -1440,3 +1440,76 @@ textarea.form-control {
     .dash-grid { grid-template-columns: 1fr; }
     .dash-graph-container { flex-direction: column; text-align: center; }
 }
+
+/* ==========================================================================
+   COOKIE CONSENT BANNER STYLES (Sober Glassmorphism)
+   ========================================================================== */
+.cookie-banner {
+    position: fixed;
+    bottom: -180px; /* Hidden initially */
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% - 48px);
+    max-width: 900px;
+    background: rgba(11, 15, 13, 0.95);
+    backdrop-filter: var(--glass-blur);
+    -webkit-backdrop-filter: var(--glass-blur);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-sm);
+    padding: 24px 30px;
+    z-index: 9999;
+    transition: bottom 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.7);
+}
+
+.cookie-banner.show {
+    bottom: 24px; /* Slides up smoothly */
+}
+
+.cookie-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.cookie-content p {
+    font-size: 0.75rem;
+    color: var(--text-main);
+    line-height: 1.6;
+}
+
+.cookie-content p a {
+    color: var(--secondary);
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.cookie-content p a:hover {
+    color: #ffffff;
+}
+
+.btn-cookie {
+    padding: 10px 24px;
+    font-size: 0.75rem;
+    flex-shrink: 0;
+    border-radius: var(--radius-sm);
+}
+
+@media (max-width: 768px) {
+    .cookie-banner {
+        padding: 20px;
+        width: calc(100% - 32px);
+    }
+    
+    .cookie-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 16px;
+    }
+    
+    .btn-cookie {
+        width: 100%;
+    }
+}
+
