@@ -357,4 +357,26 @@ document.addEventListener('DOMContentLoaded', () => {
             }, 1800);
         });
     }
+
+    // --- 7. COOKIE CONSENT BANNER SYSTEM ---
+    const cookieBanner = document.getElementById('cookie-banner');
+    const cookieAcceptBtn = document.getElementById('cookie-accept-btn');
+
+    if (cookieBanner && cookieAcceptBtn) {
+        // Check if the user has already accepted cookies
+        const hasAccepted = localStorage.getItem('symbiosis_cookies_accept');
+        
+        if (!hasAccepted) {
+            // Show the banner smoothly after 2.5 seconds
+            setTimeout(() => {
+                cookieBanner.classList.add('show');
+            }, 2500);
+        }
+
+        // Handle the accept button click
+        cookieAcceptBtn.addEventListener('click', () => {
+            localStorage.setItem('symbiosis_cookies_accept', 'true');
+            cookieBanner.classList.remove('show');
+        });
+    }
 });
